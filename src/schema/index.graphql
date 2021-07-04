@@ -1,0 +1,7 @@
+  #import Query from './Query/index.graphql'
+  #import Mutation from './Mutation/index.graphql'
+
+  #import User from './Entity/User.graphql'
+  #import Role  from './Entity/Role.graphql'
+  
+  scalar Date

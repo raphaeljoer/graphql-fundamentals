@@ -1,0 +1,27 @@
+  type User {
+    id: Int!
+    name: String!
+    username: String!
+    email: String!
+    old: Int!
+    role: Role!
+    status: UserStatus!
+  }
+  
+  enum UserStatus {
+    ACTIVE
+    UNACTIVE
+    BLOCKED
+  }
+
+  input UserInput {
+    name: String
+    email: String
+    old: Int
+  }
+
+  input UserFilter {
+    id: Int
+    email: String
+  }
+

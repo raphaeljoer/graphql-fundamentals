@@ -1,0 +1,13 @@
+  type Role {
+    id: Int!
+    name: String!
+  }
+  
+  input RoleInput {
+    name: String
+  }
+
+  input RoleFilter {
+    id: Int
+    name: String
+  }
